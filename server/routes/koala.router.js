@@ -6,7 +6,7 @@ const pg = require('pg');
 //pg configuration
 const Pool = pg.Pool;
 const pool = new Pool({
-    database: 'koala_holla', // THIS CHANGES BY PROJECT
+    database: 'koalla_holla', // THIS CHANGES BY PROJECT
     host: 'localhost',
     port: 5432,
 })
